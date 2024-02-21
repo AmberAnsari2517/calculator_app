@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: skyblue; /* Set background color to sky blue */
+}
+
+.card {
+  background-color: white; /* Set card background color to white */
+  border: 2px solid #ff6666;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: calc(100% - 20%);
+  padding: 8px;
+  font-size: 18px;
+  border: 1px solid #ffa500;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffa500;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffa500;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff6347;
+}
+
+.clear {
+  grid-column: span 2; /* This will make the "C" button span two columns */
+}
+ .history{
+  margin-left: 10px;
+  background-color: white; /* Set card background color to white */
+  border: 2px solid #ff6666;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
