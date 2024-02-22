@@ -4,7 +4,7 @@ import './style.css';
 export const Calculeter = () => {
   const [input, setInput] = useState('');
   const [history, setHistory] = useState([]);
-
+  const [result, setResult] = useState()
   const handleClear = () => {
     setInput('');
   };
